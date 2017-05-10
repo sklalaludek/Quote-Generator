@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
     function generateQuotes() {
-        var btn = $("button");
+        var btn = $(".btn-display-quotes");
         var urlChuckNorrisRandom = "https://api.chucknorris.io/jokes/random";
         var urlChuckNorrisGif = "http://api.giphy.com/v1/gifs/random?api_key=dc6zaTOxFJmzC&tag=chuck+norris";
 
@@ -16,7 +16,7 @@ $(document).ready(function() {
                     $("#quotes").text(response.value);
                 });
         }
-        
+
         /* Insert Random Gifs to DOM  */
         function getPic(url) {
             $.ajax({

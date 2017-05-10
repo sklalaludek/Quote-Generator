@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Bangers|Rye&subset=latin-ext');
+
 * {
     margin: 0;
     padding: 0;
@@ -7,12 +9,48 @@
 body {
     background: #000 url('../images/background.jpg') no-repeat center;
     background-size: cover;
-    min-height: 100vh;
+    // min-height: 100vh;
+    height: 100%;
+}
+
+p {
+    font-family: 'Rye', cursive;
+    color: #e6e6e6;
+}
+
+.navbar-brand {
+    font-family: 'Bangers', cursive;
+}
+
+.jumbotron {
+     background: rgba(34, 34, 34, 0.9);
+}
+
+/*description jumbotron*/
+.description {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    .title {
+        font-family: 'Rye', cursive;
+        font-size: 3vh;
+        background: -webkit-linear-gradient(#eee, #333);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .description-paragraph {
+        font-size: 2vh;
+    }
+}
+/*content*/
+.btn {
+    font-family: 'Rye', cursive;
+    font-size: 3vh;
+    margin-top: 5vh;
 }
 
 .container-gifs {
-    width: 50vw;
-    height: 45vh;
+    width: 40vw;
+    height: 35vh;
     border: 1px solid gray;
     position: relative;
     margin: 0 auto;
@@ -31,4 +69,9 @@ body {
     display: block;
     background-size: cover;
     z-index: -1;
+}
+
+#quotes {
+    font-size: 3vh;
+    text-align: center;
 }
