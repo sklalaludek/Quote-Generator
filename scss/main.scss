@@ -11,15 +11,14 @@ html {
 }
 
 body {
+    font-family: 'Rye', cursive;
     background: #000 url('../images/background.jpg') no-repeat center;
     background-size: cover;
-    // min-height: 100vh;
     height: 100%;
     width: 100%;
 }
 
 p {
-    font-family: 'Rye', cursive;
     color: #e6e6e6;
 }
 
@@ -36,7 +35,6 @@ p {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
     .title {
-        font-family: 'Rye', cursive;
         font-size: 5rem;
         background: -webkit-linear-gradient(#eee, #333);
         -webkit-background-clip: text;
@@ -48,7 +46,6 @@ p {
 }
 /*content*/
 .btn {
-    font-family: 'Rye', cursive;
     font-size: 3rem;
     margin-top: 3.5rem;
 }
@@ -79,6 +76,7 @@ p {
 #quotes {
     font-size: 3rem;
     text-align: center;
+    letter-spacing: 0.5rem;
 }
 
 .features {
@@ -88,8 +86,11 @@ p {
 }
 
 [class*="devicon"] {
-    font-size: 5rem;
-    color: white;
+    font-size: 6rem;
+    // color: white;
+    background: -webkit-linear-gradient(#f0eded, #555353);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 @media screen and (min-width: 768px) {
