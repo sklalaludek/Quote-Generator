@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+html {
+    font-size: 10px;
+}
+
 body {
     background: #000 url('../images/background.jpg') no-repeat center;
     background-size: cover;
@@ -28,30 +32,30 @@ p {
 
 /*description jumbotron*/
 .description {
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
     .title {
         font-family: 'Rye', cursive;
-        font-size: 3vh;
+        font-size: 5rem;
         background: -webkit-linear-gradient(#eee, #333);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
     .description-paragraph {
-        font-size: 2vh;
+        font-size: 1.8rem;
     }
 }
 /*content*/
 .btn {
     font-family: 'Rye', cursive;
-    font-size: 3vh;
-    margin-top: 5vh;
+    font-size: 3rem;
+    margin-top: 3.5rem;
 }
 
 .container-gifs {
-    width: 40vw;
-    height: 35vh;
-    border: 1px solid gray;
+    width: 50rem;
+    height: 30rem;
+    border: 0.1rem solid gray;
     position: relative;
     margin: 0 auto;
     z-index: 1;
@@ -61,10 +65,10 @@ p {
     position: absolute;
     width: 90%;
     height: 90%;
-    top: 0px;
-    left: 0px;
-    right: 0px;
-    bottom: 0px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
     margin: auto;
     display: block;
     background-size: cover;
@@ -72,6 +76,17 @@ p {
 }
 
 #quotes {
-    font-size: 3vh;
+    font-size: 3rem;
     text-align: center;
+}
+
+.features {
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+[class*="devicon"] {
+    font-size: 5rem;
+    color: white;
 }
