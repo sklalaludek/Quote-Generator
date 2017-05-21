@@ -12,8 +12,9 @@ html {
 
 body {
     font-family: 'Rye', cursive;
-    background: #000 url('../images/background.jpg') no-repeat center;
+    background: #000 url('../images/background.jpg') top no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     height: 100%;
     width: 100%;
 }
