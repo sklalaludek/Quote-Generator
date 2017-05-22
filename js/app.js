@@ -3,7 +3,7 @@ $(document).ready(function() {
     function generateQuotes() {
         var btn = $(".btn-display-quotes");
         var urlChuckNorrisRandom = "https://api.chucknorris.io/jokes/random";
-        var urlChuckNorrisGif = "http://api.giphy.com/v1/gifs/random?api_key=dc6zaTOxFJmzC&tag=chuck+norris";
+        var urlChuckNorrisGif = "https://api.giphy.com/v1/gifs/random?api_key=dc6zaTOxFJmzC&tag=chuck+norris";
 
         /* Insert Random Quotes to DOM  */
         function getData(url) {
